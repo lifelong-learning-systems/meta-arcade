@@ -1,0 +1,80 @@
+{
+
+	"meta":{
+		"description":"Get to the other side without running into the ball."
+	},
+
+	"actions":{
+		"up":true,
+		"down":true,
+		"left":true,
+		"right":true,
+		"fire":false
+	},
+
+	"game_elements":{
+		"top_wall":false,
+		"bottom_wall":true,
+		"ball":true,
+		"opponent":false,
+		"blocks":true,
+		"static_barriers":true
+	},
+
+	"display_settings":{
+		"background_color":[0,0,0],
+		"ui_color":[80,80,80],
+		"indicator_color_1":[200,200,160],
+		"indicator_color_2":[0,0,0]
+	},
+
+	"player_settings":{
+		"width":0.05,
+		"height":0.05,
+		"speed":0.01,
+		"color":[255,255,255],
+		"steering":0.5
+	},
+
+	"opponent_settings":{},
+
+	"ball_settings":{
+		"size":0.15,
+		"speed":0.008,
+		"color":[181, 20, 255],
+		"harmful":true
+	},
+
+	"blocks_settings":{
+		"color":[155, 152, 156],
+		"creation_area":[0.02,0.22,0.96,0.1],
+		"rows":1,
+		"cols":7,
+		"per_row":6,
+		"spacing":-0.01,
+		"harmful":true,
+		"clear_path":false,
+		"static_weave_fall":"static",
+		"points":0
+	},
+
+	"static_barrier_settings":{
+		"color":[98, 90, 99],
+		"creation_area":[0.02,0.65,0.96,0.1],
+		"rows":1,
+		"cols":7,
+		"per_row":6,
+		"spacing":-0.01,
+		"clear_path":false
+	},
+
+
+	"image_settings":{
+		"color_inversion":false,
+		"rotation":0,
+		"hue_shift":0.0,
+		"saturation_shift":0.0,
+		"value_shift":0.0
+	}
+
+}

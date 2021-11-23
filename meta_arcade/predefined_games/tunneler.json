@@ -1,0 +1,75 @@
+{
+
+	"meta":{
+		"description":"Shoot your way through to the top of the screen."
+	},
+
+	"actions":{
+		"up":true,
+		"down":true,
+		"left":true,
+		"right":true,
+		"fire":true
+	},
+
+	"game_elements":{
+		"top_wall":false,
+		"bottom_wall":true,
+		"ball":false,
+		"opponent":false,
+		"blocks":true,
+		"static_barriers":true
+	},
+
+	"display_settings":{
+		"background_color":[0,0,0],
+		"ui_color":[80,80,80],
+		"indicator_color_1":[200,200,160],
+		"indicator_color_2":[0,0,0]
+	},
+
+	"player_settings":{
+		"width":0.05,
+		"height":0.05,
+		"speed":0.01,
+		"color":[255,255,255],
+		"steering":0.5
+	},
+
+	"opponent_settings":{},
+
+	"ball_settings":{},
+
+	"blocks_settings":{
+		"color":[62, 72, 148],
+		"creation_area":[0.01,0.1,0.98,0.6],
+		"rows":5,
+		"cols":5,
+		"per_row":5,
+		"spacing":-0.01,
+		"harmful":true,
+		"clear_path":false,
+		"static_weave_fall":"static",
+		"points":0
+	},
+
+	"static_barrier_settings":{
+		"color":[217, 192, 154],
+		"creation_area":[0.01,0.05,0.98,0.6],
+		"rows":4,
+		"cols":5,
+		"per_row":1,
+		"spacing":-0.05,
+		"clear_path":true
+	},
+
+
+	"image_settings":{
+		"color_inversion":false,
+		"rotation":0,
+		"hue_shift":0.0,
+		"saturation_shift":0.0,
+		"value_shift":0.0
+	}
+
+}

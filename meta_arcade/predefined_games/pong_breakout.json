@@ -1,0 +1,82 @@
+{
+
+	"meta":{
+		"description":"Pong with rows of blocks in the middle."
+	},
+
+	"actions":{
+		"up":false,
+		"down":false,
+		"left":true,
+		"right":true,
+		"fire":false
+	},
+
+	"game_elements":{
+		"top_wall":false,
+		"bottom_wall":false,
+		"ball":true,
+		"opponent":true,
+		"blocks":true,
+		"static_barriers":false
+	},
+
+	"display_settings":{
+		"background_color":[0,0,0],
+		"ui_color":[80,80,80],
+		"indicator_color_1":[200,200,160],
+		"indicator_color_2":[0,0,0]
+	},
+
+	"player_settings":{
+		"width":0.2,
+		"height":0.03,
+		"speed":0.01,
+		"color":[255,255,255],
+		"steering":0.5
+	},
+
+	"opponent_settings":{
+		"width":0.2,
+		"height":0.03,
+		"speed":0.01,
+		"color":[255,0,100],
+		"skill_level":0.4,
+		"can_shoot":false,
+		"tracks_ball":true
+	},
+
+	"ball_settings":{
+		"size":0.05,
+		"speed":0.011,
+		"color":[255,180,0],
+		"harmful":false
+	},
+
+	"blocks_settings":{
+		"creation_area":[0.05,0.3,0.9,0.1],
+		"rows":2,
+		"cols":5,
+		"per_row":"full",
+		"spacing":0.15,
+		"color":[200,50,50],
+		"static_weave_fall":"static",
+		"speed":0.0,
+		"harmful":false,
+		"points":0
+	},
+
+	"static_barrier_settings":{
+		"color":[150,100,200]
+	},
+
+
+	"image_settings":{
+		"color_inversion":false,
+		"rotation":0,
+		"hue_shift":0.0,
+		"saturation_shift":0.0,
+		"value_shift":0.0
+	}
+
+}

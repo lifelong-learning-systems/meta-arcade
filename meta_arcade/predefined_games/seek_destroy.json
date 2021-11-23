@@ -1,0 +1,72 @@
+{
+
+	"meta":{
+		"description":"Navigate through obstacles and destroy the enemy."
+	},
+
+	"actions":{
+		"up":true,
+		"down":true,
+		"left":true,
+		"right":true,
+		"fire":true
+	},
+
+	"game_elements":{
+		"top_wall":true,
+		"bottom_wall":true,
+		"ball":false,
+		"opponent":true,
+		"blocks":false,
+		"static_barriers":true
+	},
+
+	"display_settings":{
+		"background_color":[0,0,0],
+		"ui_color":[80,80,80],
+		"indicator_color_1":[200,200,160],
+		"indicator_color_2":[0,0,0]
+	},
+
+	"player_settings":{
+		"width":0.04,
+		"height":0.04,
+		"speed":0.01,
+		"color":[255,255,255],
+		"steering":0.5
+	},
+
+	"opponent_settings":{
+		"width":0.2,
+		"height":0.03,
+		"speed":0.01,
+		"color":[255,0,100],
+		"skill_level":0.42,
+		"can_shoot":true,
+		"tracks_ball":false
+	},
+
+	"ball_settings":{},
+
+	"blocks_settings":{},
+
+	"static_barrier_settings":{
+		"color":[44, 116, 156],
+		"creation_area":[0.02,0.35,0.98,0.45],
+		"rows":5,
+		"cols":5,
+		"per_row":3,
+		"spacing":-0.05,
+		"clear_path":true
+	},
+
+
+	"image_settings":{
+		"color_inversion":false,
+		"rotation":0,
+		"hue_shift":0.0,
+		"saturation_shift":0.0,
+		"value_shift":0.0
+	}
+
+}

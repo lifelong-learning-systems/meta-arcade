@@ -1,0 +1,71 @@
+{
+
+	"meta":{
+		"description":"Shoot the enemy paddle, avoid the ball."
+	},
+
+	"actions":{
+		"up":false,
+		"down":false,
+		"left":true,
+		"right":true,
+		"fire":true
+	},
+
+	"game_elements":{
+		"top_wall":true,
+		"bottom_wall":true,
+		"ball":true,
+		"opponent":true,
+		"blocks":false,
+		"static_barriers":false
+	},
+
+	"display_settings":{
+		"background_color":[0,0,0],
+		"ui_color":[80,80,80],
+		"indicator_color_1":[200,200,160],
+		"indicator_color_2":[0,0,0]
+	},
+
+	"player_settings":{
+		"width":0.16,
+		"height":0.03,
+		"speed":0.01,
+		"color":[255,255,255],
+		"steering":0.5
+	},
+
+	"opponent_settings":{
+		"width":0.2,
+		"height":0.03,
+		"speed":0.01,
+		"color":[255,0,100],
+		"skill_level":0.35,
+		"can_shoot":true,
+		"tracks_ball":false
+	},
+
+	"ball_settings":{
+		"size":0.12,
+		"speed":0.008,
+		"color":[181, 20, 255],
+		"harmful":true
+	},
+
+	"blocks_settings":{},
+
+	"static_barrier_settings":{
+		"color":[98, 90, 99]
+	},
+
+
+	"image_settings":{
+		"color_inversion":false,
+		"rotation":0,
+		"hue_shift":0.0,
+		"saturation_shift":0.0,
+		"value_shift":0.0
+	}
+
+}

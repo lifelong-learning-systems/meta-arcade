@@ -1,0 +1,64 @@
+{
+
+	"meta":{
+		"description":"Navigate to the top of the screen."
+	},
+
+	"actions":{
+		"up":true,
+		"down":true,
+		"left":true,
+		"right":true,
+		"fire":false
+	},
+
+	"game_elements":{
+		"top_wall":false,
+		"bottom_wall":true,
+		"ball":false,
+		"opponent":false,
+		"blocks":false,
+		"static_barriers":true
+	},
+
+	"display_settings":{
+		"background_color":[0,0,0],
+		"ui_color":[80,80,80],
+		"indicator_color_1":[200,200,160],
+		"indicator_color_2":[0,0,0]
+	},
+
+	"player_settings":{
+		"width":0.04,
+		"height":0.04,
+		"speed":0.01,
+		"color":[255,255,255],
+		"steering":0.5
+	},
+
+	"opponent_settings":{},
+
+	"ball_settings":{},
+
+	"blocks_settings":{},
+
+	"static_barrier_settings":{
+		"color":[58, 184, 29],
+		"creation_area":[0.0,0.05,1.0,0.68],
+		"rows":5,
+		"cols":6,
+		"per_row":3,
+		"spacing":-0.05,
+		"clear_path":true
+	},
+
+
+	"image_settings":{
+		"color_inversion":false,
+		"rotation":0,
+		"hue_shift":0.0,
+		"saturation_shift":0.0,
+		"value_shift":0.0
+	}
+
+}

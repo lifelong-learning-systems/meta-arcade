@@ -1,0 +1,69 @@
+{
+
+	"meta":{
+		"description":"Eliminate 50 falling blocks to win."
+	},
+
+	"actions":{
+		"up":false,
+		"down":false,
+		"left":true,
+		"right":true,
+		"fire":true
+	},
+
+	"game_elements":{
+		"top_wall":false,
+		"bottom_wall":false,
+		"ball":false,
+		"opponent":false,
+		"blocks":true,
+		"static_barriers":false
+	},
+
+	"display_settings":{
+		"background_color":[0,0,0],
+		"ui_color":[80,80,80],
+		"indicator_color_1":[200,200,160],
+		"indicator_color_2":[0,0,0]
+	},
+
+	"player_settings":{
+		"width":0.15,
+		"height":0.05,
+		"speed":0.012,
+		"color":[255,255,255],
+		"steering":0.5
+	},
+
+	"opponent_settings":{},
+
+	"ball_settings":{},
+
+	"blocks_settings":{
+		"creation_area":[0.05,-1.0,0.9,1.0],
+		"rows":5,
+		"cols":4,
+		"per_row":1,
+		"spacing":0.4,
+		"color":[137, 222, 84],
+		"static_weave_fall":"fall",
+		"speed":0.002,
+		"harmful":true,
+		"points":2
+	},
+
+	"static_barrier_settings":{
+		"color":[179, 95, 169]
+	},
+
+
+	"image_settings":{
+		"color_inversion":false,
+		"rotation":0,
+		"hue_shift":0.0,
+		"saturation_shift":0.0,
+		"value_shift":0.0
+	}
+
+}

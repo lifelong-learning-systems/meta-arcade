@@ -1,0 +1,71 @@
+{
+
+	"meta":{
+		"description":"Shoot the enemy paddle before it shoots you."
+	},
+
+	"actions":{
+		"up":false,
+		"down":false,
+		"left":true,
+		"right":true,
+		"fire":true
+	},
+
+	"game_elements":{
+		"top_wall":true,
+		"bottom_wall":true,
+		"ball":false,
+		"opponent":true,
+		"blocks":false,
+		"static_barriers":true
+	},
+
+	"display_settings":{
+		"background_color":[0,0,0],
+		"ui_color":[80,80,80],
+		"indicator_color_1":[200,200,160],
+		"indicator_color_2":[0,0,0]
+	},
+
+	"player_settings":{
+		"width":0.2,
+		"height":0.03,
+		"speed":0.01,
+		"color":[255,255,255],
+		"steering":0.5
+	},
+
+	"opponent_settings":{
+		"width":0.2,
+		"height":0.03,
+		"speed":0.007,
+		"color":[255,0,100],
+		"skill_level":0.3,
+		"can_shoot":true,
+		"tracks_ball":false
+	},
+
+	"ball_settings":{},
+
+	"blocks_settings":{},
+
+	"static_barrier_settings":{
+		"creation_area":[0.4,0.4,0.2,0.2],
+		"rows":1,
+		"cols":1,
+		"per_row":1,
+		"spacing":0.0,
+		"color":[150,100,200]
+	},
+
+
+	"image_settings":{
+		"color_inversion":false,
+		"rotation":0,
+		"hue_shift":0.0,
+		"saturation_shift":0.0,
+		"value_shift":0.0
+	}
+
+}

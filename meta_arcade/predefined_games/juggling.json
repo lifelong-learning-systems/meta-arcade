@@ -1,0 +1,75 @@
+{
+
+	"meta":{
+		"description":"Get 10 hits on each ball to win."
+	},
+
+	"actions":{
+		"up":false,
+		"down":false,
+		"left":true,
+		"right":true,
+		"fire":false
+	},
+
+	"game_elements":{
+		"top_wall":true,
+		"bottom_wall":false,
+		"ball":true,
+		"opponent":false,
+		"blocks":true,
+		"static_barriers":false
+	},
+
+	"display_settings":{
+		"background_color":[0,0,0],
+		"ui_color":[80,80,80],
+		"indicator_color_1":[200,200,160],
+		"indicator_color_2":[0,0,0]
+	},
+
+	"player_settings":{
+		"width":0.2,
+		"height":0.03,
+		"speed":0.015,
+		"color":[255,255,255],
+		"steering":0.3
+	},
+
+	"opponent_settings":{},
+
+	"ball_settings":{
+		"size":0.05,
+		"speed":0.005,
+		"color":[255,180,0],
+		"harmful":false,
+		"num_balls":3
+	},
+
+	"blocks_settings":{
+		"creation_area":[0.01,0.1,0.98,0.06],
+		"rows":30,
+		"cols":1,
+		"per_row":"full",
+		"spacing":0.0,
+		"color":[176, 255, 145],
+		"static_weave_fall":"static",
+		"speed":0.0,
+		"harmful":false,
+		"points":3.334
+	},
+
+	"static_barrier_settings":{
+		"color":[100, 209, 207]
+	},
+
+
+	"image_settings":{
+		"color_inversion":false,
+		"rotation":0,
+		"hue_shift":0.0,
+		"saturation_shift":0.0,
+		"value_shift":0.0
+	}
+
+}
