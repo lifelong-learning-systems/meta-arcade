@@ -32,7 +32,7 @@ class GameDisplay():
 
     def __init__(self, headless=False, w=250, h=250, episode_as_gif_path=None):
 
-        pygame.init()
+        pygame.display.init()
         self.w, self.h = w, h
         self.display_size = [w,h]
 
