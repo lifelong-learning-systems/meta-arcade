@@ -1,16 +1,16 @@
 ### Documentation Pages:
 
-1. [Game Mechanics](./documentation/GameMechanics.md)
+1. [Game Mechanics](./GameMechanics.md)
 
-2. [Configuration Files](./documentation/ConfigurationFiles.md)
+2. [Configuration Files](./ConfigurationFiles.md)
 
-3. [Parameter Distributions](./documentation/ParameterDistributions.md)
+3. [Parameter Distributions](./ParameterDistributions.md)
 
-4. [Building Curricula](./documentation/BuildingCurricula.md)
+4. [Building Curricula](./BuildingCurricula.md)
 
-5. [Additional Tools](./documentation/AdditionalTools.md)
+5. [Additional Tools](./AdditionalTools.md)
 
-6. [Meta Arcade Inner Workings](./documentation/InnerWorkings.md)
+6. [Meta Arcade Inner Workings](./InnerWorkings.md)
 
 
 Parameter Distributions
