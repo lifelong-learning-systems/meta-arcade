@@ -12,7 +12,7 @@ This repo also contains tools for building curricula of games that may be introd
 
 The [/examples/](./examples/) directory contains code that demonstrates working with games, varying their parameters, and compiling them into curricula. Documentation about all of these aspects can be found in the [/documentation/](./documentation/) directory.
 
-This work was published at the NeurIPS 2021 Workshop on Deep Reinforcement Learning: You can view the publication [here](https://openreview.net/forum?id=6Tw0QPDyXML).
+This work was published at the NeurIPS 2021 Workshop on Deep Reinforcement Learning: You can view the publication <a href="https://openreview.net/forum?id=6Tw0QPDyXML" target="_blank">here</a>.
 Please see the "Citing this Work" section at the end of this page for more information.
 
 ### Installation
@@ -100,8 +100,9 @@ All games have an action space of Discrete(6) unless continuous actions are used
 | ![](./readme_content/target_practice.gif) | Target_Practice | Hit 10 targets to win. |
 | ![](./readme_content/tunneler.gif) | Tunneler | Shoot your way through to the top of the screen. |
 
+
 ## Citing this Work
-This work was published as a workshop paper at the NeurIPS 2021 Workshop on Deep Reinforcement Learning, and we ask that you cite the paper instead of this code repository. You can find a link to said paper [here](https://openreview.net/forum?id=6Tw0QPDyXML). Alternatively, you can just use the bibtex below:
+This work was published as a workshop paper at the NeurIPS 2021 Workshop on Deep Reinforcement Learning, and we ask that you cite the paper instead of this code repository. You can find a link to the paper <a href="https://openreview.net/forum?id=6Tw0QPDyXML" target="_blank">here</a>. Alternatively, you can just use the bibtex below:
 ```
 @inproceedings{
 staley2021meta,
