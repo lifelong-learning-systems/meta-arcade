@@ -12,6 +12,8 @@ This repo also contains tools for building curricula of games that may be introd
 
 The [/examples/](./examples/) directory contains code that demonstrates working with games, varying their parameters, and compiling them into curricula. Documentation about all of these aspects can be found in the [/documentation/](./documentation/) directory.
 
+This work was published at the NeurIPS 2021 Workshop on Deep Reinforcement Learning: You can view the publication [here](https://openreview.net/forum?id=6Tw0QPDyXML).
+Please see the "Citing this Work" section at the end of this page for more information.
 
 ### Installation
 
@@ -97,6 +99,19 @@ All games have an action space of Discrete(6) unless continuous actions are used
 | ![](./readme_content/sweeper.gif) | Sweeper | Clear the playing area to win. |
 | ![](./readme_content/target_practice.gif) | Target_Practice | Hit 10 targets to win. |
 | ![](./readme_content/tunneler.gif) | Tunneler | Shoot your way through to the top of the screen. |
+
+## Citing this Work
+This work was published as a workshop paper at the NeurIPS 2021 Workshop on Deep Reinforcement Learning, and we ask that you cite the paper instead of this code repository. You can find a link to said paper [here](https://openreview.net/forum?id=6Tw0QPDyXML). Alternatively, you can just use the bibtex below:
+```
+@inproceedings{
+staley2021meta,
+title={Meta Arcade: A Configurable Environment Suite for Deep Reinforcement Learning and Meta-Learning},
+author={Edward W Staley and Chace Ashcraft and Benjamin Stoler and Jared Markowitz and Gautam Vallabha and Christopher Ratto and Kapil Katyal},
+booktitle={Deep RL Workshop NeurIPS 2021},
+year={2021},
+url={https://openreview.net/forum?id=6Tw0QPDyXML}
+}
+```
 
 
 ## Acknowledgements
